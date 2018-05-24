@@ -8,30 +8,13 @@ public class BST_Node {
   
   BST_Node(String data){ this.data=data; }
 
-  // --- used for testing  ----------------------------------------------
-  //
-  // leave these 3 methods in, as is
+
 
   public String getData(){ return data; }
   public BST_Node getLeft(){ return left; }
   public BST_Node getRight(){ return right; }
 
-  // --- end used for testing -------------------------------------------
-
   
-  // --- fill in these methods ------------------------------------------
-  //
-  // at the moment, they are stubs returning false 
-  // or some appropriate "fake" value
-  //
-  // you make them work properly
-  // add the meat of correct implementation logic to them
-
-  // you MAY change the signatures if you wish...
-  // make the take more or different parameters
-  // have them return different types
-  //
-  // you may use recursive or iterative implementations
 
   
   	public boolean containsNode(String s){
@@ -325,13 +308,6 @@ public class BST_Node {
 	 
 }
   
-
-  // --- end fill in these methods --------------------------------------
-
-
-  // --------------------------------------------------------------------
-  // you may add any other methods you want to get the job done
-  // --------------------------------------------------------------------
   
   public String toString(){
     return "Data: "+this.data+", Left: "+((this.left!=null)?left.data:"null")
